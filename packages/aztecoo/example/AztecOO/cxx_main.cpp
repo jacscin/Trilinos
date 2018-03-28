@@ -64,6 +64,8 @@
 #define perror1(str,ierr) { fprintf(stderr,"%s %d\n",str,ierr);   exit(-1); }
 #define double_quote '"'
 
+using namespace std;
+
 int main(int argc, char *argv[])
 {
   int    *update;                  /* vector elements updated on this node. */
